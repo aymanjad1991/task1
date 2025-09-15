@@ -1,0 +1,63 @@
+﻿<h1>Registration Page</h1>
+<br/>
+
+
+ 
+<br />
+<form class="f1">
+    Firstname:<input type="text" class="n1" id="1" placeholder="Fistname" onmouseover=" Fun1()"  />
+    
+    Lastname:<input type="text" class="n1" id="2" placeholder="Lastname" onmouseover=" Fun2()"  /><br />
+    Password:<input type="password" class="n1" id="3" placeholder="password" onmouseover=" Fun3()"  /><br />
+    City:<input type="text" class="n1" placeholder="enter your city" onmouseover=" Fun4()" /><br />
+    <label>
+    Gender:
+        </label>
+    <input type="radio" id="r1" name="male" value="0" onmouseover=" Fun5()">
+        <label for="html">MALE</label>
+
+    <input type="radio" id="r2" name="male" value="0"onmouseover =" Fun5()">
+    <label for="html">Female</label><br>
+
+    <label>Stady Level</label>
+
+    <input type="radio" id="s1" name="level" value="0" onmouseover=" Fun6()">
+    <label for="html">BA</label>
+
+    <input type="radio" id="s2" name="level" value="0" onmouseover=" Fun6()">
+    <label for="html">Master</label>  
+
+  
+    <input type="radio" id="s3" name="level" value="0" onmouseover=" Fun6()">
+    <label for="html">PHD</label><br/>
+
+    <input type="submit" onclick="fun1()" value="SAVE" id="22" onmouseover=" Fun7()">
+
+</form>
+
+        <script>
+            function Fun7(){
+           document.getElementById("22").style.backgroundColor = "yellow";
+            }
+
+              function Fun1(){
+  alert('enter your name');
+    }
+
+        function Fun2(){
+    alert('enter yourlastname');
+      }
+              function Fun3(){
+    alert('enter your password');
+      }
+          function Fun4(){
+    alert('enter your city');
+      }
+          function Fun5(){
+    alert('enter your gender');
+      }
+
+         function Fun6(){
+      alert('enter your major');
+        }
+</script>
